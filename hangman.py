@@ -1,6 +1,3 @@
-from sympy import Q
-
-
 HANGMANPICS = [
     """
   +---+
@@ -59,7 +56,8 @@ HANGMANPICS = [
       |
 =========""",
 ]
-word = "winners"
+
+word = str(input("Don't look:"))
 
 status = ["_"] * len(word)
 
