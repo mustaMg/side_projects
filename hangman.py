@@ -83,7 +83,6 @@ while guess_count < len(word) or len(true_guessed) < len(status):
                 if ask == word:
                     print(f"{'*'*25}\n*\t YOU WIN!\t*\n{'*'*25}")
                     break
-                print(guessed, word)
                 print(true_guessed)
                 if len(true_guessed) == len(status) or guessed[0] == word:
                     print(f"{'*'*25}\n*\t YOU WIN!\t*\n{'*'*25}")
